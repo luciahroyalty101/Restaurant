@@ -1,0 +1,24 @@
+body{
+    color: red;
+    font: outline;
+    text-align: center;
+    font-size: large;
+}
+@media only screen and (max-width: 600px) {
+    body{
+      height:100vh
+    }
+    #main{
+      font-size: 2em;
+      padding-top: 100px;
+    }
+  
+    .second-child{
+      border-left: unset;
+      border-right: unset;
+    }
+    script{
+      display: none
+    }
+  }
+  
